@@ -3,44 +3,16 @@
   
     
     <entry>
-      <title>你好，Hexo</title>
-      <link href="/2018/08/08/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo%20-%20%E5%89%AF%E6%9C%AC/"/>
-      <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p><strong><em>这是个测试博客</em></strong></p>]]></content>
+      <title>Git入门</title>
+      <link href="/2018/08/13/Git%E5%85%A5%E9%97%A8/"/>
+      <content type="html"><![CDATA[<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念:"></a>基本概念:</h1><h2 id="工作区"><a href="#工作区" class="headerlink" title="工作区"></a>工作区</h2><p>工作区就是你克隆项目到本地后，项目所在的文件夹目录。</p><h2 id="暂存区-stage-index"><a href="#暂存区-stage-index" class="headerlink" title="暂存区(stage/index)"></a>暂存区(stage/index)</h2><p>用于存储工作区中添加上来的变更（新增、修改、删除）的文件的地方。操作时，使用git add .会将本地所有新增、变更、删除过的文件的情况存入暂存区中，这些信息会存储到仓库目录下.git文件夹中的index文件中，该文件中以索引的形式存储着你的操作，Git 提交实际读取的是暂存区域的内容，而与工作区域的文件无关，当你修改了文件之后，如果没有添加git add到暂存区域，并不会保存到版本库</p><h2 id="本地仓库"><a href="#本地仓库" class="headerlink" title="本地仓库"></a>本地仓库</h2><p>用于存储本地工作区和暂存区提交上来的变更（新增、修改、删除）过的文件的地方，操作时，使用git commit –m “本次更新信息” 可以将添加到暂存区的修改的文件提交到本地仓库中。</p><p><img src="/2018/08/13/Git入门/不同区域的转换.jpg" alt=""></p><h2 id="远程仓库"><a href="#远程仓库" class="headerlink" title="远程仓库"></a>远程仓库</h2><p>就是最后所有人存储代码的地方，这个仓库中会拥有一个master分支(系统自动创建的唯一分支)，与若干个其他人创建的分支，不同的人与不同的模块会上传到不同的分支中保存，最后确认不误后合并到master分支中。</p><h2 id="分支-branch"><a href="#分支-branch" class="headerlink" title="分支(branch )"></a>分支(branch )</h2><p>假设此时有一个项目，项目组有5个人，那么就会创建5个分支，每个人一个分支开发自己的模块，最后确认无误后在全部整合到master模块。</p><h2 id="版本指针-HEAD"><a href="#版本指针-HEAD" class="headerlink" title="版本指针(HEAD)"></a>版本指针(HEAD)</h2><p>HEAD在git中的指的是当前版本</p><h2 id="标签-tag"><a href="#标签-tag" class="headerlink" title="标签(tag)"></a>标签(tag)</h2><p>用来标记版本，一般为项目的版本，如V1.0 、V2.0 等。</p><h2 id="历史-log"><a href="#历史-log" class="headerlink" title="历史(log)"></a>历史(log)</h2><p>存储着每个版本的具体信息。</p><h1 id="工作流程"><a href="#工作流程" class="headerlink" title="工作流程"></a>工作流程</h1><p><img src="/2018/08/13/Git入门/工作流程.jpg" alt=""></p><h1 id="命令："><a href="#命令：" class="headerlink" title="命令："></a>命令：</h1><h2 id="git的基本与常见操作："><a href="#git的基本与常见操作：" class="headerlink" title="git的基本与常见操作："></a>git的基本与常见操作：</h2><h3 id="初始化即创建git仓库"><a href="#初始化即创建git仓库" class="headerlink" title="初始化即创建git仓库"></a>初始化即创建git仓库</h3><pre><code>$ git init</code></pre><h3 id="克隆代码"><a href="#克隆代码" class="headerlink" title="克隆代码"></a>克隆代码</h3><pre><code>$ git clone 地址    </code></pre><h3 id="添加到缓存区"><a href="#添加到缓存区" class="headerlink" title="添加到缓存区"></a>添加到缓存区</h3><pre><code>$ git add 文件名</code></pre><h3 id="更新代码，并附有更新历史信息-更新到本地仓库"><a href="#更新代码，并附有更新历史信息-更新到本地仓库" class="headerlink" title="更新代码，并附有更新历史信息(更新到本地仓库)"></a>更新代码，并附有更新历史信息(更新到本地仓库)</h3><pre><code>$ git commit -m &quot;代码提交信息&quot;</code></pre><h3 id="从本地仓库提交代码到远程仓库的master分支-可以是任何分支，一般为自己创建的分支，最后再往master分支中合并"><a href="#从本地仓库提交代码到远程仓库的master分支-可以是任何分支，一般为自己创建的分支，最后再往master分支中合并" class="headerlink" title="从本地仓库提交代码到远程仓库的master分支(可以是任何分支，一般为自己创建的分支，最后再往master分支中合并)"></a>从本地仓库提交代码到远程仓库的master分支(可以是任何分支，一般为自己创建的分支，最后再往master分支中合并)</h3><pre><code>$ git push origin master</code></pre><h2 id="分支："><a href="#分支：" class="headerlink" title="分支："></a>分支：</h2><h3 id="查看有哪些分支"><a href="#查看有哪些分支" class="headerlink" title="查看有哪些分支"></a>查看有哪些分支</h3><pre><code>$ git branch</code></pre><h3 id="从远程仓库下载新分支与数据即更新所有分支"><a href="#从远程仓库下载新分支与数据即更新所有分支" class="headerlink" title="从远程仓库下载新分支与数据即更新所有分支"></a>从远程仓库下载新分支与数据即更新所有分支</h3><pre><code>$ git fetch</code></pre><h3 id="从远端仓库提取数据并尝试合并到当前分支"><a href="#从远端仓库提取数据并尝试合并到当前分支" class="headerlink" title="从远端仓库提取数据并尝试合并到当前分支"></a>从远端仓库提取数据并尝试合并到当前分支</h3><pre><code>$ git pull</code></pre><h3 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h3><pre><code>$ git push origin :需要删除的分支名称</code></pre><h3 id="删除本地仓库的远程仓库链接"><a href="#删除本地仓库的远程仓库链接" class="headerlink" title="删除本地仓库的远程仓库链接"></a>删除本地仓库的远程仓库链接</h3><pre><code>$ git remote rm 需要删除的链接名称</code></pre><h3 id="切换到指定分支"><a href="#切换到指定分支" class="headerlink" title="切换到指定分支"></a>切换到指定分支</h3><pre><code>$ git checkout 需要切换到的分支名称</code></pre><h3 id="新建分支"><a href="#新建分支" class="headerlink" title="新建分支"></a>新建分支</h3><pre><code>$ git branch 新建的分支名称</code></pre><h3 id="合并两个分支"><a href="#合并两个分支" class="headerlink" title="合并两个分支"></a>合并两个分支</h3><pre><code>$ git merge 需要合并的分支名称A 需要合并的分支名称B</code></pre><h3 id="将需要合并的分支合并到当前分支中，并自动进行新的提交"><a href="#将需要合并的分支合并到当前分支中，并自动进行新的提交" class="headerlink" title="将需要合并的分支合并到当前分支中，并自动进行新的提交"></a>将需要合并的分支合并到当前分支中，并自动进行新的提交</h3><pre><code>$ git merge 需要合并到当前分支的分支名称</code></pre><h3 id="将需要合并的分支合并到当前分支中，并不自动进行新的提交"><a href="#将需要合并的分支合并到当前分支中，并不自动进行新的提交" class="headerlink" title="将需要合并的分支合并到当前分支中，并不自动进行新的提交"></a>将需要合并的分支合并到当前分支中，并不自动进行新的提交</h3><pre><code>$ git merge --no-commit 需要合并到当前分支的分支名称</code></pre><h3 id="列出已经存在的远程分支"><a href="#列出已经存在的远程分支" class="headerlink" title="列出已经存在的远程分支"></a>列出已经存在的远程分支</h3><pre><code>$ git remote</code></pre><h3 id="列出已经存在的远程分支的详细信息"><a href="#列出已经存在的远程分支的详细信息" class="headerlink" title="列出已经存在的远程分支的详细信息"></a>列出已经存在的远程分支的详细信息</h3><pre><code>$ git remote -v</code></pre><h3 id="git-branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支"><a href="#git-branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支" class="headerlink" title="git branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支"></a>git branch命令的-r选项，可以用来查看远程分支，-a选项查看所有分支</h3><pre><code>$ git branch -r/a</code></pre><p>###<br>    $ git branch -r<br>    origin/master<br>    $ git branch -a</p><pre><code>* masterremotes/origin/master其中，origin为主机名，master为分支名</code></pre><h2 id="标签："><a href="#标签：" class="headerlink" title="标签："></a>标签：</h2><h3 id="给当前版本添加标签，以便记录与标记"><a href="#给当前版本添加标签，以便记录与标记" class="headerlink" title="给当前版本添加标签，以便记录与标记"></a>给当前版本添加标签，以便记录与标记</h3><pre><code>$ git tag -a 添加的标签</code></pre><h3 id="追加标签即给之前的版本添加标签"><a href="#追加标签即给之前的版本添加标签" class="headerlink" title="追加标签即给之前的版本添加标签"></a>追加标签即给之前的版本添加标签</h3><pre><code>$ git tag -a 添加的标签 需要添加标签的版本号</code></pre><h3 id="查看所有的标签"><a href="#查看所有的标签" class="headerlink" title="查看所有的标签"></a>查看所有的标签</h3><pre><code>$ git tag</code></pre><h2 id="历史："><a href="#历史：" class="headerlink" title="历史："></a>历史：</h2><h3 id="查看历史信息-详细"><a href="#查看历史信息-详细" class="headerlink" title="查看历史信息(详细)"></a>查看历史信息(详细)</h3><pre><code>$ git log --oneline --graph --decorate</code></pre><h3 id="查看命令历史记录"><a href="#查看命令历史记录" class="headerlink" title="查看命令历史记录"></a>查看命令历史记录</h3><pre><code>$ git reflog</code></pre><h3 id="查看历史信息并筛选，只获取版本号和版本说明信息"><a href="#查看历史信息并筛选，只获取版本号和版本说明信息" class="headerlink" title="查看历史信息并筛选，只获取版本号和版本说明信息"></a>查看历史信息并筛选，只获取版本号和版本说明信息</h3><pre><code>$ git log --pretty=oneline</code></pre><h3 id="查看当前文件的哪些地方被修改了"><a href="#查看当前文件的哪些地方被修改了" class="headerlink" title="查看当前文件的哪些地方被修改了"></a>查看当前文件的哪些地方被修改了</h3><pre><code>$ git diff 文件名</code></pre><h3 id="显示工作目录和暂存区的状态及修改信息"><a href="#显示工作目录和暂存区的状态及修改信息" class="headerlink" title="显示工作目录和暂存区的状态及修改信息"></a>显示工作目录和暂存区的状态及修改信息</h3><pre><code>$ git status</code></pre><h2 id="回退版本："><a href="#回退版本：" class="headerlink" title="回退版本："></a>回退版本：</h2><h3 id="回退到上一个版本"><a href="#回退到上一个版本" class="headerlink" title="回退到上一个版本"></a>回退到上一个版本</h3><pre><code>$ git reset --hard HEAD^</code></pre><h3 id="回退到上上个版本"><a href="#回退到上上个版本" class="headerlink" title="回退到上上个版本"></a>回退到上上个版本</h3><pre><code>$ git reset --hard HEAD^^</code></pre><h3 id="回退到前100个版本"><a href="#回退到前100个版本" class="headerlink" title="回退到前100个版本"></a>回退到前100个版本</h3><pre><code>$ git reset --hard HEAD~100</code></pre><h3 id="回退到指定的版本通过版本号"><a href="#回退到指定的版本通过版本号" class="headerlink" title="回退到指定的版本通过版本号"></a>回退到指定的版本通过版本号</h3><pre><code>$ git reset --hard 你要回退的版本号  </code></pre><p>时间:2018.8.13</p><hr>]]></content>
       
       
         <tags>
             
-            <tag> Testing </tag>
+            <tag> git </tag>
             
         </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>你好，Hexo</title>
-      <link href="/2018/08/08/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo%20-%20%E5%89%AF%E6%9C%AC%20-%20%E5%89%AF%E6%9C%AC/"/>
-      <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p><strong><em>这是个测试博客</em></strong></p>]]></content>
-      
-      <categories>
-          
-          <category> hexo </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> Testing </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    <entry>
-      <title>你好，Hexo</title>
-      <link href="/2018/08/08/%E4%BD%A0%E5%A5%BD%EF%BC%8CHexo/"/>
-      <content type="html"><![CDATA[<h1 id="测试"><a href="#测试" class="headerlink" title="测试"></a>测试</h1><p><strong><em>这是个测试博客</em></strong></p>]]></content>
-      
       
     </entry>
     
