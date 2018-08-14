@@ -78,7 +78,7 @@
 	
 		<i class="iconfont icon-words"></i>
 		<span>
-			1765
+			1766
 		</span>
 	
 </div>
@@ -92,6 +92,7 @@
 
 			
 					<h1 id="基本概念"><a href="#基本概念" class="headerlink" title="基本概念:"></a>基本概念:</h1><h2 id="工作区"><a href="#工作区" class="headerlink" title="工作区"></a>工作区</h2><p>工作区就是你克隆项目到本地后，项目所在的文件夹目录。</p>
+<a id="more"></a>
 <h2 id="暂存区-stage-index"><a href="#暂存区-stage-index" class="headerlink" title="暂存区(stage/index)"></a>暂存区(stage/index)</h2><p>用于存储工作区中添加上来的变更（新增、修改、删除）的文件的地方。操作时，使用git add .会将本地所有新增、变更、删除过的文件的情况存入暂存区中，这些信息会存储到仓库目录下.git文件夹中的index文件中，该文件中以索引的形式存储着你的操作，Git 提交实际读取的是暂存区域的内容，而与工作区域的文件无关，当你修改了文件之后，如果没有添加git add到暂存区域，并不会保存到版本库</p>
 <h2 id="本地仓库"><a href="#本地仓库" class="headerlink" title="本地仓库"></a>本地仓库</h2><p>用于存储本地工作区和暂存区提交上来的变更（新增、修改、删除）过的文件的地方，操作时，使用git commit –m “本次更新信息” 可以将添加到暂存区的修改的文件提交到本地仓库中。</p>
 <p><img src="/2018/08/13/Git入门/不同区域的转换.jpg" alt=""></p>
