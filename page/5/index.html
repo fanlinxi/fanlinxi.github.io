@@ -892,7 +892,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java生成固定长度的随机字母和数字/">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java格式化一个时间为yyyy-MM-dd/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="無曦">
@@ -911,7 +911,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/04/11/Java生成固定长度的随机字母和数字/" itemprop="url">Java生成固定长度的随机字母和数字</a></h1>
+                <a class="post-title-link" href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" itemprop="url">Java格式化一个时间为yyyy-MM-dd</a></h1>
         
 
         <div class="post-meta">
@@ -964,8 +964,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/04/11/Java生成固定长度的随机字母和数字/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java生成固定长度的随机字母和数字/" itemprop="commentCount"></span>
+                <a href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -973,7 +973,7 @@
 
           
           
-             <span id="/2019/04/11/Java生成固定长度的随机字母和数字/" class="leancloud_visitors" data-flag-title="Java生成固定长度的随机字母和数字">
+             <span id="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" class="leancloud_visitors" data-flag-title="Java格式化一个时间为yyyy-MM-dd">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -998,7 +998,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  101
+                  62
                 </span>
               
 
@@ -1036,11 +1036,11 @@
 
       
         
-          <h2 id="getRandomLetterAndNumber"><a href="#getRandomLetterAndNumber" class="headerlink" title="getRandomLetterAndNumber"></a>getRandomLetterAndNumber</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">	<span class="comment">/**</span></span><br><span class="line"><span class="comment">	 * 生成固定长度的随机字母和数字</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> len 需要的长度</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getRandomLetterAndNumber</span><span class="params">(Integer len)</span> </span>&#123;</span><br><span class="line">		StringBuffer sb = <span class="keyword">new</span> StringBuffer();</span><br><span class="line">		<span class="keyword">for</span> (Integer i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">			<span class="keyword">int</span> intRand = (<span class="keyword">int</span>) (Math.random() * <span class="number">52</span>);</span><br><span class="line">			<span class="keyword">int</span> numValue = (<span class="keyword">int</span>) (Math.random() * <span class="number">10</span>);</span><br><span class="line">			<span class="keyword">char</span> base = (intRand &lt; <span class="number">26</span>) ? <span class="string">'A'</span> : <span class="string">'a'</span>;</span><br><span class="line">			<span class="keyword">char</span> c = (<span class="keyword">char</span>) (base + intRand % <span class="number">26</span>);</span><br><span class="line">			<span class="keyword">if</span> (numValue % <span class="number">2</span> == <span class="number">0</span>) &#123;</span><br><span class="line">				sb.append(c);</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				sb.append(numValue);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> sb.toString();</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+          <h2 id="formatOneDate"><a href="#formatOneDate" class="headerlink" title="formatOneDate"></a>formatOneDate</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 格式化一个时间为yyyy-MM-dd</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> date</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">formatOneDate</span><span class="params">(Date date)</span></span>&#123;</span><br><span class="line">       TimeZone timeZone = TimeZone.getTimeZone(<span class="string">"Asia/Shanghai"</span>);</span><br><span class="line"></span><br><span class="line">       String pattern = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line"></span><br><span class="line">       SimpleDateFormat df = <span class="keyword">new</span> SimpleDateFormat(pattern);</span><br><span class="line"></span><br><span class="line">       df.setTimeZone(timeZone);</span><br><span class="line"></span><br><span class="line">       String formatDate = df.format(date);</span><br><span class="line"></span><br><span class="line">       <span class="keyword">return</span> formatDate;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
 <h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java生成固定长度的随机字母和数字/#more" rel="contents">
+            <a class="btn" href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1692,6 +1692,205 @@
   
   
   <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java生成固定长度的随机字母和数字/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="無曦">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="無曦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/11/Java生成固定长度的随机字母和数字/" itemprop="url">Java生成固定长度的随机字母和数字</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
+                2019-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/11/Java生成固定长度的随机字母和数字/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java生成固定长度的随机字母和数字/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/04/11/Java生成固定长度的随机字母和数字/" class="leancloud_visitors" data-flag-title="Java生成固定长度的随机字母和数字">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  101
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="getRandomLetterAndNumber"><a href="#getRandomLetterAndNumber" class="headerlink" title="getRandomLetterAndNumber"></a>getRandomLetterAndNumber</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line">	<span class="comment">/**</span></span><br><span class="line"><span class="comment">	 * 生成固定长度的随机字母和数字</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@param</span> len 需要的长度</span></span><br><span class="line"><span class="comment">	 * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">	 */</span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getRandomLetterAndNumber</span><span class="params">(Integer len)</span> </span>&#123;</span><br><span class="line">		StringBuffer sb = <span class="keyword">new</span> StringBuffer();</span><br><span class="line">		<span class="keyword">for</span> (Integer i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">			<span class="keyword">int</span> intRand = (<span class="keyword">int</span>) (Math.random() * <span class="number">52</span>);</span><br><span class="line">			<span class="keyword">int</span> numValue = (<span class="keyword">int</span>) (Math.random() * <span class="number">10</span>);</span><br><span class="line">			<span class="keyword">char</span> base = (intRand &lt; <span class="number">26</span>) ? <span class="string">'A'</span> : <span class="string">'a'</span>;</span><br><span class="line">			<span class="keyword">char</span> c = (<span class="keyword">char</span>) (base + intRand % <span class="number">26</span>);</span><br><span class="line">			<span class="keyword">if</span> (numValue % <span class="number">2</span> == <span class="number">0</span>) &#123;</span><br><span class="line">				sb.append(c);</span><br><span class="line">			&#125; <span class="keyword">else</span> &#123;</span><br><span class="line">				sb.append(numValue);</span><br><span class="line">			&#125;</span><br><span class="line">		&#125;</span><br><span class="line">		<span class="keyword">return</span> sb.toString();</span><br><span class="line">	&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/04/11/Java生成固定长度的随机字母和数字/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
     <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java汉字转拼音/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -1840,205 +2039,6 @@
           <!--noindex-->
           <div class="post-button text-center">
             <a class="btn" href="/2019/04/11/Java汉字转拼音/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java格式化一个时间为yyyy-MM-dd/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="無曦">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="無曦">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" itemprop="url">Java格式化一个时间为yyyy-MM-dd</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
-                2019-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" class="leancloud_visitors" data-flag-title="Java格式化一个时间为yyyy-MM-dd">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  62
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="formatOneDate"><a href="#formatOneDate" class="headerlink" title="formatOneDate"></a>formatOneDate</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 格式化一个时间为yyyy-MM-dd</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> date</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">formatOneDate</span><span class="params">(Date date)</span></span>&#123;</span><br><span class="line">       TimeZone timeZone = TimeZone.getTimeZone(<span class="string">"Asia/Shanghai"</span>);</span><br><span class="line"></span><br><span class="line">       String pattern = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line"></span><br><span class="line">       SimpleDateFormat df = <span class="keyword">new</span> SimpleDateFormat(pattern);</span><br><span class="line"></span><br><span class="line">       df.setTimeZone(timeZone);</span><br><span class="line"></span><br><span class="line">       String formatDate = df.format(date);</span><br><span class="line"></span><br><span class="line">       <span class="keyword">return</span> formatDate;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -2384,6 +2384,12 @@
                     <a href="https://www.jianshu.com/u/36ce3ec09ec6" target="_blank" title="简书">
                       
                         <i class="fa fa-fw fa-gg"></i>简书</a>
+                  </span>
+                
+                  <span class="links-of-author-item">
+                    <a href="http://106.13.51.1:8200/" target="_blank" title="WordPress版博客">
+                      
+                        <i class="fa fa-fw fa-gg"></i>WordPress版博客</a>
                   </span>
                 
             </div>
