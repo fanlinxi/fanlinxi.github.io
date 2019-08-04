@@ -298,7 +298,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java通过全类名获取Class/">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java进行HTTP请求/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="無曦">
@@ -317,7 +317,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/04/11/Java通过全类名获取Class/" itemprop="url">Java通过全类名获取Class</a></h1>
+                <a class="post-title-link" href="/2019/04/11/Java进行HTTP请求/" itemprop="url">Java进行HTTP请求</a></h1>
         
 
         <div class="post-meta">
@@ -370,8 +370,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/04/11/Java通过全类名获取Class/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java通过全类名获取Class/" itemprop="commentCount"></span>
+                <a href="/2019/04/11/Java进行HTTP请求/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java进行HTTP请求/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -379,7 +379,7 @@
 
           
           
-             <span id="/2019/04/11/Java通过全类名获取Class/" class="leancloud_visitors" data-flag-title="Java通过全类名获取Class">
+             <span id="/2019/04/11/Java进行HTTP请求/" class="leancloud_visitors" data-flag-title="Java进行HTTP请求">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -404,7 +404,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  82
+                  442
                 </span>
               
 
@@ -420,7 +420,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -442,10 +442,10 @@
 
       
         
-          <h2 id="Java通过全类名获取class"><a href="#Java通过全类名获取class" class="headerlink" title="Java通过全类名获取class"></a>Java通过全类名获取class</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">   * 通过全类名获取class，如com.*.**.*</span></span><br><span class="line"><span class="comment">   * <span class="doctag">@param</span> className</span></span><br><span class="line"><span class="comment">   * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">   */</span></span><br><span class="line">  <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Class <span class="title">getclassByClassName</span><span class="params">(String className)</span></span>&#123;</span><br><span class="line">      <span class="keyword">try</span> &#123;</span><br><span class="line">          Class obj = Class.forName(className);</span><br><span class="line">          <span class="keyword">return</span> obj;</span><br><span class="line">      &#125; <span class="keyword">catch</span> (ClassNotFoundException e) &#123;</span><br><span class="line">          e.printStackTrace();</span><br><span class="line">          <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">      &#125;</span><br><span class="line"></span><br><span class="line">  &#125;</span><br></pre></td></tr></table></figure>
+          <h2 id="pom"><a href="#pom" class="headerlink" title="pom"></a>pom</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!--java访问http/https--&gt;</span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">    &lt;groupId&gt;org.apache.httpcomponents&lt;/groupId&gt;</span><br><span class="line">    &lt;artifactId&gt;httpclient&lt;/artifactId&gt;</span><br><span class="line">    &lt;version&gt;4.5.3&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java通过全类名获取Class/#more" rel="contents">
+            <a class="btn" href="/2019/04/11/Java进行HTTP请求/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -496,7 +496,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java判断数据是否为空/">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java解析XML为JSON数据/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="無曦">
@@ -515,7 +515,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/04/11/Java判断数据是否为空/" itemprop="url">Java判断字符串是否为空</a></h1>
+                <a class="post-title-link" href="/2019/04/11/Java解析XML为JSON数据/" itemprop="url">Java解析XML为JSON数据</a></h1>
         
 
         <div class="post-meta">
@@ -568,8 +568,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/04/11/Java判断数据是否为空/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java判断数据是否为空/" itemprop="commentCount"></span>
+                <a href="/2019/04/11/Java解析XML为JSON数据/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java解析XML为JSON数据/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -577,7 +577,7 @@
 
           
           
-             <span id="/2019/04/11/Java判断数据是否为空/" class="leancloud_visitors" data-flag-title="Java判断字符串是否为空">
+             <span id="/2019/04/11/Java解析XML为JSON数据/" class="leancloud_visitors" data-flag-title="Java解析XML为JSON数据">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -602,7 +602,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  70
+                  467
                 </span>
               
 
@@ -618,7 +618,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  2
                 </span>
               
             </div>
@@ -640,11 +640,10 @@
 
       
         
-          <h2 id="Java判断字符串是否为空"><a href="#Java判断字符串是否为空" class="headerlink" title="Java判断字符串是否为空"></a>Java判断字符串是否为空</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * @描述 判断数据是否为空</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> obj</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">checkIsNullOrEmpty</span><span class="params">(Object obj)</span> </span>&#123;</span><br><span class="line">       <span class="keyword">if</span> (obj <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line">           <span class="keyword">return</span> (obj == <span class="keyword">null</span> || (((String) obj).equals(<span class="string">""</span>)) || (((String) obj).equals(<span class="string">"null"</span>)) || ((String) obj).equals(<span class="string">"undefined"</span>));</span><br><span class="line">       &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">           <span class="keyword">return</span> obj == <span class="keyword">null</span>;</span><br><span class="line">       &#125;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
+          <h2 id="XmlToJson"><a href="#XmlToJson" class="headerlink" title="XmlToJson"></a>XmlToJson</h2>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java判断数据是否为空/#more" rel="contents">
+            <a class="btn" href="/2019/04/11/Java解析XML为JSON数据/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -695,7 +694,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java判断字符串是否为数字/">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java汉字转拼音/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="無曦">
@@ -714,7 +713,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/04/11/Java判断字符串是否为数字/" itemprop="url">Java判断字符串是否为数字</a></h1>
+                <a class="post-title-link" href="/2019/04/11/Java汉字转拼音/" itemprop="url">Java汉字转拼音</a></h1>
         
 
         <div class="post-meta">
@@ -767,8 +766,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/04/11/Java判断字符串是否为数字/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java判断字符串是否为数字/" itemprop="commentCount"></span>
+                <a href="/2019/04/11/Java汉字转拼音/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java汉字转拼音/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -776,7 +775,7 @@
 
           
           
-             <span id="/2019/04/11/Java判断字符串是否为数字/" class="leancloud_visitors" data-flag-title="Java判断字符串是否为数字">
+             <span id="/2019/04/11/Java汉字转拼音/" class="leancloud_visitors" data-flag-title="Java汉字转拼音">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -801,7 +800,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  64
+                  337
                 </span>
               
 
@@ -839,15 +838,208 @@
 
       
         
-          <h2 id="StringisNumber"><a href="#StringisNumber" class="headerlink" title="StringisNumber"></a>StringisNumber</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">StringisNumber</span><span class="params">(String str)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (!<span class="string">""</span>.equals(str)) &#123;</span><br><span class="line">            java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(<span class="string">"[0-9]*"</span>);</span><br><span class="line">            java.util.regex.Matcher match = pattern.matcher(str);</span><br><span class="line">            <span class="keyword">if</span> (match.matches() == <span class="keyword">false</span>) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
+          <h2 id="pom"><a href="#pom" class="headerlink" title="pom"></a>pom</h2><figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">&lt;!-- https:<span class="comment">//mvnrepository.com/artifact/com.belerweb/pinyin4j --&gt;</span></span><br><span class="line">&lt;dependency&gt;</span><br><span class="line">	&lt;groupId&gt;com.belerweb&lt;/groupId&gt;</span><br><span class="line">	&lt;artifactId&gt;pinyin4j&lt;/artifactId&gt;</span><br><span class="line">	&lt;version&gt;2.5.0&lt;/version&gt;</span><br><span class="line">&lt;/dependency&gt;</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java判断字符串是否为数字/#more" rel="contents">
+            <a class="btn" href="/2019/04/11/Java汉字转拼音/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
           <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java公共方法工具类/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="無曦">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="無曦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/11/Java公共方法工具类/" itemprop="url">Java公共方法工具类</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
+                2019-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/Java/" itemprop="url" rel="index">
+                    <span itemprop="name">Java</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/11/Java公共方法工具类/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java公共方法工具类/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/04/11/Java公共方法工具类/" class="leancloud_visitors" data-flag-title="Java公共方法工具类">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  1.8k
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  9
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <h2 id="一些公共方法"><a href="#一些公共方法" class="headerlink" title="一些公共方法"></a>一些公共方法</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br><span class="line">240</span><br><span class="line">241</span><br><span class="line">242</span><br><span class="line">243</span><br><span class="line">244</span><br><span class="line">245</span><br><span class="line">246</span><br><span class="line">247</span><br><span class="line">248</span><br><span class="line">249</span><br><span class="line">250</span><br><span class="line">251</span><br><span class="line">252</span><br><span class="line">253</span><br><span class="line">254</span><br><span class="line">255</span><br><span class="line">256</span><br><span class="line">257</span><br><span class="line">258</span><br><span class="line">259</span><br><span class="line">260</span><br><span class="line">261</span><br><span class="line">262</span><br><span class="line">263</span><br><span class="line">264</span><br><span class="line">265</span><br><span class="line">266</span><br><span class="line">267</span><br><span class="line">268</span><br><span class="line">269</span><br><span class="line">270</span><br><span class="line">271</span><br><span class="line">272</span><br><span class="line">273</span><br><span class="line">274</span><br><span class="line">275</span><br><span class="line">276</span><br><span class="line">277</span><br><span class="line">278</span><br><span class="line">279</span><br><span class="line">280</span><br><span class="line">281</span><br><span class="line">282</span><br><span class="line">283</span><br><span class="line">284</span><br><span class="line">285</span><br><span class="line">286</span><br><span class="line">287</span><br><span class="line">288</span><br><span class="line">289</span><br><span class="line">290</span><br><span class="line">291</span><br><span class="line">292</span><br><span class="line">293</span><br><span class="line">294</span><br><span class="line">295</span><br><span class="line">296</span><br><span class="line">297</span><br><span class="line">298</span><br><span class="line">299</span><br><span class="line">300</span><br><span class="line">301</span><br><span class="line">302</span><br><span class="line">303</span><br><span class="line">304</span><br><span class="line">305</span><br><span class="line">306</span><br><span class="line">307</span><br><span class="line">308</span><br><span class="line">309</span><br><span class="line">310</span><br><span class="line">311</span><br><span class="line">312</span><br><span class="line">313</span><br><span class="line">314</span><br><span class="line">315</span><br><span class="line">316</span><br><span class="line">317</span><br><span class="line">318</span><br><span class="line">319</span><br><span class="line">320</span><br><span class="line">321</span><br><span class="line">322</span><br><span class="line">323</span><br><span class="line">324</span><br><span class="line">325</span><br><span class="line">326</span><br><span class="line">327</span><br><span class="line">328</span><br><span class="line">329</span><br><span class="line">330</span><br><span class="line">331</span><br><span class="line">332</span><br><span class="line">333</span><br><span class="line">334</span><br><span class="line">335</span><br><span class="line">336</span><br><span class="line">337</span><br><span class="line">338</span><br><span class="line">339</span><br><span class="line">340</span><br><span class="line">341</span><br><span class="line">342</span><br><span class="line">343</span><br><span class="line">344</span><br><span class="line">345</span><br><span class="line">346</span><br><span class="line">347</span><br><span class="line">348</span><br><span class="line">349</span><br><span class="line">350</span><br><span class="line">351</span><br><span class="line">352</span><br><span class="line">353</span><br><span class="line">354</span><br><span class="line">355</span><br><span class="line">356</span><br><span class="line">357</span><br><span class="line">358</span><br><span class="line">359</span><br><span class="line">360</span><br><span class="line">361</span><br><span class="line">362</span><br><span class="line">363</span><br><span class="line">364</span><br><span class="line">365</span><br><span class="line">366</span><br><span class="line">367</span><br><span class="line">368</span><br><span class="line">369</span><br><span class="line">370</span><br><span class="line">371</span><br><span class="line">372</span><br><span class="line">373</span><br><span class="line">374</span><br><span class="line">375</span><br><span class="line">376</span><br><span class="line">377</span><br><span class="line">378</span><br><span class="line">379</span><br><span class="line">380</span><br><span class="line">381</span><br><span class="line">382</span><br><span class="line">383</span><br><span class="line">384</span><br><span class="line">385</span><br><span class="line">386</span><br><span class="line">387</span><br><span class="line">388</span><br><span class="line">389</span><br><span class="line">390</span><br><span class="line">391</span><br><span class="line">392</span><br><span class="line">393</span><br><span class="line">394</span><br><span class="line">395</span><br><span class="line">396</span><br><span class="line">397</span><br><span class="line">398</span><br><span class="line">399</span><br><span class="line">400</span><br><span class="line">401</span><br><span class="line">402</span><br><span class="line">403</span><br><span class="line">404</span><br><span class="line">405</span><br><span class="line">406</span><br><span class="line">407</span><br><span class="line">408</span><br><span class="line">409</span><br><span class="line">410</span><br><span class="line">411</span><br><span class="line">412</span><br><span class="line">413</span><br><span class="line">414</span><br><span class="line">415</span><br><span class="line">416</span><br><span class="line">417</span><br><span class="line">418</span><br><span class="line">419</span><br><span class="line">420</span><br><span class="line">421</span><br><span class="line">422</span><br><span class="line">423</span><br><span class="line">424</span><br><span class="line">425</span><br><span class="line">426</span><br><span class="line">427</span><br><span class="line">428</span><br><span class="line">429</span><br><span class="line">430</span><br><span class="line">431</span><br><span class="line">432</span><br><span class="line">433</span><br><span class="line">434</span><br><span class="line">435</span><br><span class="line">436</span><br><span class="line">437</span><br><span class="line">438</span><br><span class="line">439</span><br><span class="line">440</span><br><span class="line">441</span><br><span class="line">442</span><br><span class="line">443</span><br><span class="line">444</span><br><span class="line">445</span><br><span class="line">446</span><br><span class="line">447</span><br><span class="line">448</span><br><span class="line">449</span><br><span class="line">450</span><br><span class="line">451</span><br><span class="line">452</span><br><span class="line">453</span><br><span class="line">454</span><br><span class="line">455</span><br><span class="line">456</span><br><span class="line">457</span><br><span class="line">458</span><br><span class="line">459</span><br><span class="line">460</span><br><span class="line">461</span><br><span class="line">462</span><br><span class="line">463</span><br><span class="line">464</span><br><span class="line">465</span><br><span class="line">466</span><br><span class="line">467</span><br><span class="line">468</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> javax.servlet.http.HttpServletRequest;</span><br><span class="line"><span class="keyword">import</span> java.math.BigInteger;</span><br><span class="line"><span class="keyword">import</span> java.security.MessageDigest;</span><br><span class="line"><span class="keyword">import</span> java.sql.Timestamp;</span><br><span class="line"><span class="keyword">import</span> java.util.*;</span><br><span class="line"><span class="keyword">import</span> java.text.DateFormat;</span><br><span class="line"><span class="keyword">import</span> java.text.ParseException;</span><br><span class="line"><span class="keyword">import</span> java.text.SimpleDateFormat;</span><br><span class="line"><span class="keyword">import</span> java.util.Date;</span><br><span class="line"></span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Description</span>: Java公共类方法</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@Author</span>: 無曦</span></span><br><span class="line"><span class="comment"> * <span class="doctag">@CreateDate</span>: 2019/5/14 21:34</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="keyword">public</span> <span class="class"><span class="keyword">class</span> <span class="title">CommonUtils</span> </span>&#123;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Java进行字符串转日期操作</span></span><br><span class="line"><span class="comment">     * 可转换格式为yyyy-MM-dd &amp; yyyy/MM/dd</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> string 字符串类型时间</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> Date</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Date <span class="title">stringDtaeToDate</span><span class="params">(String string)</span> </span>&#123;</span><br><span class="line">        Date date = <span class="keyword">null</span>;</span><br><span class="line">        <span class="keyword">if</span> (checkIsNullOrEmpty(string)) &#123;</span><br><span class="line">            String format = <span class="string">""</span>;</span><br><span class="line">            <span class="comment">//判断日期格式</span></span><br><span class="line">            <span class="keyword">if</span> (string.contains(<span class="string">"-"</span>)) &#123;</span><br><span class="line">                format = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (string.contains(<span class="string">"/"</span>)) &#123;</span><br><span class="line">                format = <span class="string">"yyyy/MM/dd"</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> <span class="keyword">if</span> (string.contains(<span class="string">"."</span>)) &#123;</span><br><span class="line">                String[] split = string.split(<span class="string">"."</span>);</span><br><span class="line">                string = split[<span class="number">0</span>] + <span class="string">"-"</span> + split[<span class="number">1</span>] + <span class="string">"-"</span> + split[<span class="number">2</span>];</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                <span class="keyword">return</span> date;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">//转换日期</span></span><br><span class="line">            DateFormat dateFormat = <span class="keyword">new</span> SimpleDateFormat(format);</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                date = dateFormat.parse(string);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (ParseException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            System.out.println(<span class="string">"日期转换出错,字符串转日期类型传参为空!"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> date;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Java计算两个字符串类型的日期相差多少天</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> startDay  开始时间(字符串类型)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> endDay    结束时间(字符串类型)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Integer <span class="title">differcountDay</span><span class="params">(String startDay,String endDay)</span></span>&#123;</span><br><span class="line">        String format = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line">        Long days = <span class="number">0L</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(!checkIsNullOrEmpty(startDay) &amp;&amp; !checkIsNullOrEmpty(endDay))&#123;</span><br><span class="line">            <span class="comment">//判断日期格式</span></span><br><span class="line">            <span class="keyword">if</span>(startDay.contains(<span class="string">"/"</span>) &amp;&amp; endDay.contains(<span class="string">"/"</span>)) &#123;</span><br><span class="line">                format = <span class="string">"yyyy/MM/dd"</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            DateFormat dateFormat = <span class="keyword">new</span> SimpleDateFormat(format);</span><br><span class="line">            Date one;</span><br><span class="line">            Date two;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//去除空格</span></span><br><span class="line">            startDay = startDay.replaceAll(<span class="string">" "</span>, <span class="string">""</span>);</span><br><span class="line">            endDay = endDay.replaceAll(<span class="string">" "</span>, <span class="string">""</span>);</span><br><span class="line"></span><br><span class="line">            <span class="comment">//计算时间</span></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                one = dateFormat.parse(startDay);</span><br><span class="line">                two = dateFormat.parse(endDay);</span><br><span class="line">                Long time1 = one.getTime();</span><br><span class="line">                Long time2 = two.getTime();</span><br><span class="line">                Long diff ;</span><br><span class="line">                diff = time2 - time1;</span><br><span class="line">                days = diff / (<span class="number">1000</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">24</span>);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (ParseException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">                System.out.println(<span class="string">"计算两个字符串类型的日期相差多少天出现错误"</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> days.intValue();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前日期XX天之前的日期</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> beforeDay XX天</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getBeforeXXDate</span><span class="params">(Integer beforeDay)</span></span>&#123;</span><br><span class="line">        Calendar now = Calendar.getInstance();</span><br><span class="line">        now.add(Calendar.DAY_OF_MONTH, -beforeDay);</span><br><span class="line">        String beforeDate = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy/MM/dd"</span>).format(now.getTime());</span><br><span class="line">        <span class="keyword">return</span> beforeDate;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Java获取两个时间之间相差多长时间</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> startDay  开始时间</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> endDay    结束时间</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">oneTimeBetweenTwoTimeDate</span><span class="params">(Date startDay, Date endDay)</span> </span>&#123;</span><br><span class="line">        String result = <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">if</span> (!checkIsNullOrEmpty(startDay) &amp;&amp; !checkIsNullOrEmpty(endDay)) &#123;</span><br><span class="line">            SimpleDateFormat dfs = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss.SSS"</span>);</span><br><span class="line">            <span class="keyword">long</span> between = <span class="number">0</span>;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                <span class="comment">//计算相差毫秒值</span></span><br><span class="line">                between = (endDay.getTime() - startDay.getTime());</span><br><span class="line">            &#125; <span class="keyword">catch</span> (Exception ex) &#123;</span><br><span class="line">                ex.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">//转换毫秒值</span></span><br><span class="line">            <span class="keyword">long</span> day = between / (<span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span>);</span><br><span class="line">            <span class="keyword">long</span> hour = (between / (<span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span>) - day * <span class="number">24</span>);</span><br><span class="line">            <span class="keyword">long</span> min = ((between / (<span class="number">60</span> * <span class="number">1000</span>)) - day * <span class="number">24</span> * <span class="number">60</span> - hour * <span class="number">60</span>);</span><br><span class="line">            <span class="keyword">long</span> s = (between / <span class="number">1000</span> - day * <span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> - hour * <span class="number">60</span> * <span class="number">60</span> - min * <span class="number">60</span>);</span><br><span class="line">            <span class="keyword">long</span> ms = (between - day * <span class="number">24</span> * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span> - hour * <span class="number">60</span> * <span class="number">60</span> * <span class="number">1000</span> - min * <span class="number">60</span> * <span class="number">1000</span> - s * <span class="number">1000</span>);</span><br><span class="line"></span><br><span class="line">            result = day + <span class="string">"天"</span> + hour + <span class="string">"小时"</span> + min + <span class="string">"分"</span> + s + <span class="string">"秒"</span> + ms + <span class="string">"毫秒"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            result = <span class="string">"参数为空"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> result;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 生成固定长度的随机字符(仅包含大小写字母)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> len   随机字符长度</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getRandomLetterString</span><span class="params">(Integer len)</span> </span>&#123;</span><br><span class="line">        StringBuffer sb = <span class="keyword">new</span> StringBuffer();</span><br><span class="line">        <span class="keyword">for</span> (Integer i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> intRand = (<span class="keyword">int</span>) (Math.random() * <span class="number">52</span>);</span><br><span class="line">            <span class="keyword">char</span> base = (intRand &lt; <span class="number">26</span>) ? <span class="string">'A'</span> : <span class="string">'a'</span>;</span><br><span class="line">            <span class="keyword">char</span> c = (<span class="keyword">char</span>) (base + intRand % <span class="number">26</span>);</span><br><span class="line">            sb.append(c);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sb.toString();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 生成固定长度的随机字母(包含大小写)和数字</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> len 需要的长度</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getRandomLetterAndNumberString</span><span class="params">(Integer len)</span> </span>&#123;</span><br><span class="line">        StringBuffer sb = <span class="keyword">new</span> StringBuffer();</span><br><span class="line">        <span class="keyword">for</span> (Integer i = <span class="number">0</span>; i &lt; len; i++) &#123;</span><br><span class="line">            <span class="keyword">int</span> intRand = (<span class="keyword">int</span>) (Math.random() * <span class="number">52</span>);</span><br><span class="line">            <span class="keyword">int</span> numValue = (<span class="keyword">int</span>) (Math.random() * <span class="number">10</span>);</span><br><span class="line">            <span class="keyword">char</span> base = (intRand &lt; <span class="number">26</span>) ? <span class="string">'A'</span> : <span class="string">'a'</span>;</span><br><span class="line">            <span class="keyword">char</span> c = (<span class="keyword">char</span>) (base + intRand % <span class="number">26</span>);</span><br><span class="line">            <span class="keyword">if</span> (numValue % <span class="number">2</span> == <span class="number">0</span>) &#123;</span><br><span class="line">                sb.append(c);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                sb.append(numValue);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sb.toString();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * Java判断字符串是否为数字</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> string 字符串</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">StringisNumber</span><span class="params">(String string)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (!checkIsNullOrEmpty(string)) &#123;</span><br><span class="line">            java.util.regex.Pattern pattern = java.util.regex.Pattern.compile(<span class="string">"[0-9]*"</span>);</span><br><span class="line">            java.util.regex.Matcher match = pattern.matcher(string);</span><br><span class="line">            <span class="keyword">if</span> (match.matches() == <span class="keyword">false</span>) &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">false</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 通过全类名获取class，如com.*.**.*</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> className</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Class <span class="title">getClassByClassName</span><span class="params">(String className)</span></span>&#123;</span><br><span class="line">        <span class="keyword">if</span>(!checkIsNullOrEmpty(className))&#123;</span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                Class obj = Class.forName(className);</span><br><span class="line">                <span class="keyword">return</span> obj;</span><br><span class="line">            &#125; <span class="keyword">catch</span> (ClassNotFoundException e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 通过request获取IP地址</span></span><br><span class="line"><span class="comment">     * 使用Nginx等反向代理软件， 则不能通过request.getRemoteAddr()获取IP地址</span></span><br><span class="line"><span class="comment">     * 如果使用了多级反向代理的话，X-Forwarded-For的值并不止一个，而是一串IP地址，X-Forwarded-For中第一个非unknown的有效IP字符串，则为真实IP地址</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> request</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getIpAddr</span><span class="params">(HttpServletRequest request)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        String ip = request.getHeader(<span class="string">"x-forwarded-for"</span>);</span><br><span class="line">        <span class="keyword">if</span> (ip == <span class="keyword">null</span> || ip.length() == <span class="number">0</span> || <span class="string">"unknown"</span>.equalsIgnoreCase(ip)) &#123;</span><br><span class="line">            ip = request.getHeader(<span class="string">"Proxy-Client-IP"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (ip == <span class="keyword">null</span> || ip.length() == <span class="number">0</span> || <span class="string">"unknown"</span>.equalsIgnoreCase(ip)) &#123;</span><br><span class="line">            ip = request.getHeader(<span class="string">"WL-Proxy-Client-IP"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (ip == <span class="keyword">null</span> || ip.length() == <span class="number">0</span> || <span class="string">"unknown"</span>.equalsIgnoreCase(ip)) &#123;</span><br><span class="line">            ip = request.getRemoteAddr();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">"0:0:0:0:0:0:0:1"</span>.equals(ip) ? <span class="string">"127.0.0.1"</span> : ip;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * @描述 判断数据是否为空</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> obj</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">boolean</span> <span class="title">checkIsNullOrEmpty</span><span class="params">(Object obj)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">if</span> (obj <span class="keyword">instanceof</span> String) &#123;</span><br><span class="line">            <span class="keyword">return</span> (obj == <span class="keyword">null</span> || (((String) obj).equals(<span class="string">""</span>)) || (((String) obj).equals(<span class="string">"null"</span>)) || ((String) obj).equals(<span class="string">"undefined"</span>));</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> obj == <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前时间(Timestamp格式MySQL字段)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Timestamp <span class="title">getTime</span><span class="params">()</span></span>&#123;</span><br><span class="line">        Timestamp timestamp = <span class="keyword">new</span> Timestamp(<span class="keyword">new</span> Date().getTime());</span><br><span class="line">        <span class="keyword">return</span> timestamp;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * StringDate转换为Timestamp</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> stringDate</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Timestamp <span class="title">StringToTimestamp</span><span class="params">(String stringDate)</span></span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(stringDate.indexOf(<span class="string">":"</span>) == -<span class="number">1</span>)&#123;</span><br><span class="line">            stringDate = stringDate + <span class="string">" 12:00:00"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="comment">//用Timestamp的valueOf方法转化为Timestamp实体</span></span><br><span class="line">        Timestamp time = Timestamp.valueOf(stringDate);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> time;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * MD5加密</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> str</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getMD5String</span><span class="params">(String str)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">try</span> &#123;</span><br><span class="line">            <span class="comment">// 生成一个MD5加密计算摘要</span></span><br><span class="line">            MessageDigest md = MessageDigest.getInstance(<span class="string">"MD5"</span>);</span><br><span class="line">            <span class="comment">// 计算md5函数</span></span><br><span class="line">            md.update(str.getBytes());</span><br><span class="line">            <span class="comment">// digest()最后确定返回md5 hash值，返回值为8位字符串。因为md5 hash值是16位的hex值，实际上就是8位的字符</span></span><br><span class="line">            <span class="comment">// BigInteger函数则将8位的字符串转换成16位hex值，用字符串来表示；得到字符串形式的hash值</span></span><br><span class="line">            <span class="comment">//一个byte是八位二进制，也就是2位十六进制字符（2的8次方等于16的2次方）</span></span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">new</span> BigInteger(<span class="number">1</span>, md.digest()).toString(<span class="number">16</span>);</span><br><span class="line">        &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">            e.printStackTrace();</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 得到当前系统日期(yyyy-MM-dd格式)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getCurrentDate</span><span class="params">()</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        TimeZone timeZone = TimeZone.getTimeZone(<span class="string">"Asia/Shanghai"</span>);</span><br><span class="line"></span><br><span class="line">        String pattern = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line"></span><br><span class="line">        SimpleDateFormat df = <span class="keyword">new</span> SimpleDateFormat(pattern);</span><br><span class="line"></span><br><span class="line">        df.setTimeZone(timeZone);</span><br><span class="line"></span><br><span class="line">        Date today = <span class="keyword">new</span> Date();</span><br><span class="line"></span><br><span class="line">        String tString = df.format(today);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> tString;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取当前系统时间，精确到秒</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Timestamp <span class="title">getCurrentDateAndTime</span><span class="params">()</span>  </span>&#123;</span><br><span class="line"></span><br><span class="line">        TimeZone timeZone = TimeZone.getTimeZone(<span class="string">"Asia/Shanghai"</span>);</span><br><span class="line"></span><br><span class="line">        String pattern = <span class="string">"yyyy-MM-dd HH:mm:ss"</span>;</span><br><span class="line"></span><br><span class="line">        SimpleDateFormat df = <span class="keyword">new</span> SimpleDateFormat(pattern);</span><br><span class="line"></span><br><span class="line">        df.setTimeZone(timeZone);</span><br><span class="line"></span><br><span class="line">        Date today = <span class="keyword">new</span> Date();</span><br><span class="line"></span><br><span class="line">        String tString = df.format(today);</span><br><span class="line"></span><br><span class="line">        Timestamp timestamp = Timestamp.valueOf(tString);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> timestamp;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 格式化一个时间为yyyy-MM-dd类型的字符串时间</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> date</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">formatOneDate</span><span class="params">(Date date)</span></span>&#123;</span><br><span class="line">        TimeZone timeZone = TimeZone.getTimeZone(<span class="string">"Asia/Shanghai"</span>);</span><br><span class="line"></span><br><span class="line">        String pattern = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line"></span><br><span class="line">        SimpleDateFormat df = <span class="keyword">new</span> SimpleDateFormat(pattern);</span><br><span class="line"></span><br><span class="line">        df.setTimeZone(timeZone);</span><br><span class="line"></span><br><span class="line">        String formatDate = df.format(date);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> formatDate;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 将xxxx-xx-xx(xxxx/xx/xx)(xxxx.xx.xx)转换为xxxx年xx月xx日</span></span><br><span class="line"><span class="comment">     * 遇到0x月，或者0x日时，去掉前面的零</span></span><br><span class="line"><span class="comment">     * 例：FormatDateEx("2005-09-09") 返回2005年9月9日</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> stringDate xxxx年xx月xx日</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> String</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">formatDateToString</span><span class="params">(String stringDate)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(!checkIsNullOrEmpty(stringDate))&#123;</span><br><span class="line">            String flag;</span><br><span class="line">            <span class="keyword">if</span>(stringDate.contains(<span class="string">"/"</span>))&#123;</span><br><span class="line">                flag = <span class="string">"/"</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span>(stringDate.contains(<span class="string">"-"</span>)) &#123;</span><br><span class="line">                flag = <span class="string">"-"</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span>(stringDate.contains(<span class="string">"."</span>))&#123;</span><br><span class="line">                flag = <span class="string">"."</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line">            <span class="comment">//年月日</span></span><br><span class="line">            String year = stringDate.substring(<span class="number">0</span>, stringDate.indexOf(flag));</span><br><span class="line">            String month = stringDate.substring(stringDate.indexOf(flag) + <span class="number">1</span>,</span><br><span class="line">                    stringDate.lastIndexOf(flag));</span><br><span class="line">            String day = stringDate.substring(stringDate.lastIndexOf(flag) + <span class="number">1</span>);</span><br><span class="line"></span><br><span class="line">            <span class="comment">//月前面去零</span></span><br><span class="line">            <span class="keyword">if</span> (month.startsWith(<span class="string">"0"</span>)) &#123;</span><br><span class="line">                month = month.substring(<span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            <span class="comment">//日前面去零</span></span><br><span class="line">            <span class="keyword">if</span> (day.startsWith(<span class="string">"0"</span>)) &#123;</span><br><span class="line">                day = day.substring(<span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            stringDate = year + <span class="string">"年"</span> + month + <span class="string">"月"</span> + day + <span class="string">"日"</span>;</span><br><span class="line"></span><br><span class="line">            <span class="keyword">return</span> stringDate;</span><br><span class="line">        &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获得指定日期所在月的天数</span></span><br><span class="line"><span class="comment">     * 例如：输入2019-5-15(2019/5/15)(2019.5.15)</span></span><br><span class="line"><span class="comment">     *       获得31</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> stringDate String   格式要求为yyyy－mm－dd(yyyy/mm/dd)(yyyy.mm.dd)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> int</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> Integer <span class="title">getDaysForDate</span><span class="params">(String stringDate)</span> </span>&#123;</span><br><span class="line">        Date date = <span class="keyword">null</span>;</span><br><span class="line">        String format;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span>(!checkIsNullOrEmpty(stringDate))&#123;</span><br><span class="line">            <span class="keyword">if</span>(stringDate.contains(<span class="string">"/"</span>))&#123;</span><br><span class="line">                format = <span class="string">"yyyy/MM/dd"</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span>(stringDate.contains(<span class="string">"-"</span>)) &#123;</span><br><span class="line">                format = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line">            &#125;<span class="keyword">else</span> <span class="keyword">if</span>(stringDate.contains(<span class="string">"."</span>))&#123;</span><br><span class="line">                String[] split = stringDate.split(<span class="string">"."</span>);</span><br><span class="line">                format = split[<span class="number">0</span>] + <span class="string">"-"</span> + split[<span class="number">1</span>] + <span class="string">"-"</span> + split[<span class="number">2</span>];</span><br><span class="line">            &#125;<span class="keyword">else</span> &#123;</span><br><span class="line">                <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            SimpleDateFormat sdf = <span class="keyword">new</span> SimpleDateFormat(format);</span><br><span class="line">            Calendar calendar = <span class="keyword">new</span> GregorianCalendar();</span><br><span class="line"></span><br><span class="line">            <span class="keyword">try</span> &#123;</span><br><span class="line">                date = sdf.parse(stringDate);</span><br><span class="line">            &#125; <span class="keyword">catch</span> (Exception e) &#123;</span><br><span class="line">                e.printStackTrace();</span><br><span class="line">            &#125;</span><br><span class="line"></span><br><span class="line">            calendar.setTime(date);</span><br><span class="line">            <span class="keyword">int</span> day = calendar.getActualMaximum(Calendar.DAY_OF_MONTH); <span class="comment">//天数</span></span><br><span class="line">            <span class="keyword">return</span> day;</span><br><span class="line">        &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">            <span class="keyword">return</span> <span class="keyword">null</span>;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+          
         
       
     </div>
@@ -1093,7 +1285,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java把数字金额转换为中文大写金额/">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Hexo+Github博客小功能之字数与阅读时长统计/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="無曦">
@@ -1112,7 +1304,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/04/11/Java把数字金额转换为中文大写金额/" itemprop="url">Java把数字金额转换为中文大写金额</a></h1>
+                <a class="post-title-link" href="/2019/04/11/Hexo+Github博客小功能之字数与阅读时长统计/" itemprop="url">Hexo+Github博客小功能之字数与阅读时长统计</a></h1>
         
 
         <div class="post-meta">
@@ -1147,8 +1339,8 @@
               
               
                 <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
+                  <a href="/categories/建站/" itemprop="url" rel="index">
+                    <span itemprop="name">建站</span>
                   </a>
                 </span>
 
@@ -1165,8 +1357,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/04/11/Java把数字金额转换为中文大写金额/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java把数字金额转换为中文大写金额/" itemprop="commentCount"></span>
+                <a href="/2019/04/11/Hexo+Github博客小功能之字数与阅读时长统计/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Hexo+Github博客小功能之字数与阅读时长统计/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -1174,7 +1366,7 @@
 
           
           
-             <span id="/2019/04/11/Java把数字金额转换为中文大写金额/" class="leancloud_visitors" data-flag-title="Java把数字金额转换为中文大写金额">
+             <span id="/2019/04/11/Hexo+Github博客小功能之字数与阅读时长统计/" class="leancloud_visitors" data-flag-title="Hexo+Github博客小功能之字数与阅读时长统计">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -1199,203 +1391,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  836
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  4
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <a id="more"></a>
-<h2 id="getChinaMoney"><a href="#getChinaMoney" class="headerlink" title="getChinaMoney"></a>getChinaMoney</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br><span class="line">85</span><br><span class="line">86</span><br><span class="line">87</span><br><span class="line">88</span><br><span class="line">89</span><br><span class="line">90</span><br><span class="line">91</span><br><span class="line">92</span><br><span class="line">93</span><br><span class="line">94</span><br><span class="line">95</span><br><span class="line">96</span><br><span class="line">97</span><br><span class="line">98</span><br><span class="line">99</span><br><span class="line">100</span><br><span class="line">101</span><br><span class="line">102</span><br><span class="line">103</span><br><span class="line">104</span><br><span class="line">105</span><br><span class="line">106</span><br><span class="line">107</span><br><span class="line">108</span><br><span class="line">109</span><br><span class="line">110</span><br><span class="line">111</span><br><span class="line">112</span><br><span class="line">113</span><br><span class="line">114</span><br><span class="line">115</span><br><span class="line">116</span><br><span class="line">117</span><br><span class="line">118</span><br><span class="line">119</span><br><span class="line">120</span><br><span class="line">121</span><br><span class="line">122</span><br><span class="line">123</span><br><span class="line">124</span><br><span class="line">125</span><br><span class="line">126</span><br><span class="line">127</span><br><span class="line">128</span><br><span class="line">129</span><br><span class="line">130</span><br><span class="line">131</span><br><span class="line">132</span><br><span class="line">133</span><br><span class="line">134</span><br><span class="line">135</span><br><span class="line">136</span><br><span class="line">137</span><br><span class="line">138</span><br><span class="line">139</span><br><span class="line">140</span><br><span class="line">141</span><br><span class="line">142</span><br><span class="line">143</span><br><span class="line">144</span><br><span class="line">145</span><br><span class="line">146</span><br><span class="line">147</span><br><span class="line">148</span><br><span class="line">149</span><br><span class="line">150</span><br><span class="line">151</span><br><span class="line">152</span><br><span class="line">153</span><br><span class="line">154</span><br><span class="line">155</span><br><span class="line">156</span><br><span class="line">157</span><br><span class="line">158</span><br><span class="line">159</span><br><span class="line">160</span><br><span class="line">161</span><br><span class="line">162</span><br><span class="line">163</span><br><span class="line">164</span><br><span class="line">165</span><br><span class="line">166</span><br><span class="line">167</span><br><span class="line">168</span><br><span class="line">169</span><br><span class="line">170</span><br><span class="line">171</span><br><span class="line">172</span><br><span class="line">173</span><br><span class="line">174</span><br><span class="line">175</span><br><span class="line">176</span><br><span class="line">177</span><br><span class="line">178</span><br><span class="line">179</span><br><span class="line">180</span><br><span class="line">181</span><br><span class="line">182</span><br><span class="line">183</span><br><span class="line">184</span><br><span class="line">185</span><br><span class="line">186</span><br><span class="line">187</span><br><span class="line">188</span><br><span class="line">189</span><br><span class="line">190</span><br><span class="line">191</span><br><span class="line">192</span><br><span class="line">193</span><br><span class="line">194</span><br><span class="line">195</span><br><span class="line">196</span><br><span class="line">197</span><br><span class="line">198</span><br><span class="line">199</span><br><span class="line">200</span><br><span class="line">201</span><br><span class="line">202</span><br><span class="line">203</span><br><span class="line">204</span><br><span class="line">205</span><br><span class="line">206</span><br><span class="line">207</span><br><span class="line">208</span><br><span class="line">209</span><br><span class="line">210</span><br><span class="line">211</span><br><span class="line">212</span><br><span class="line">213</span><br><span class="line">214</span><br><span class="line">215</span><br><span class="line">216</span><br><span class="line">217</span><br><span class="line">218</span><br><span class="line">219</span><br><span class="line">220</span><br><span class="line">221</span><br><span class="line">222</span><br><span class="line">223</span><br><span class="line">224</span><br><span class="line">225</span><br><span class="line">226</span><br><span class="line">227</span><br><span class="line">228</span><br><span class="line">229</span><br><span class="line">230</span><br><span class="line">231</span><br><span class="line">232</span><br><span class="line">233</span><br><span class="line">234</span><br><span class="line">235</span><br><span class="line">236</span><br><span class="line">237</span><br><span class="line">238</span><br><span class="line">239</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 把数字金额转换为中文大写金额</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> money 数字金额(double)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> 中文大写金额(String)</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getChinaMoney</span><span class="params">(<span class="keyword">double</span> money)</span> </span>&#123;</span><br><span class="line">        String ChnMoney = <span class="string">""</span>;</span><br><span class="line">        String s0 = <span class="string">""</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (money == <span class="number">0.0</span>) &#123;</span><br><span class="line">            ChnMoney = <span class="string">"零元整"</span>;</span><br><span class="line">            <span class="keyword">return</span> ChnMoney;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (money &lt; <span class="number">0</span>) &#123;</span><br><span class="line">            s0 = <span class="string">"负"</span>;</span><br><span class="line">            money *= (-<span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        String sMoney = <span class="keyword">new</span> DecimalFormat(<span class="string">"0"</span>).format(money * <span class="number">100</span>);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">int</span> nLen = sMoney.length();</span><br><span class="line">        String sInteger;</span><br><span class="line">        String sDot;</span><br><span class="line">        <span class="keyword">if</span> (nLen &lt; <span class="number">2</span>) &#123;</span><br><span class="line">            sInteger = <span class="string">""</span>;</span><br><span class="line">            <span class="keyword">if</span> (nLen == <span class="number">1</span>) &#123;</span><br><span class="line">                sDot = <span class="string">"0"</span> + sMoney.substring(nLen - <span class="number">1</span>, nLen);</span><br><span class="line">            &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">                sDot = <span class="string">"0"</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sInteger = sMoney.substring(<span class="number">0</span>, nLen - <span class="number">2</span>);</span><br><span class="line">            sDot = sMoney.substring(nLen - <span class="number">2</span>, nLen);</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        String sFormatStr = formatStr(sInteger);</span><br><span class="line"></span><br><span class="line">        String s1 = getChnM(sFormatStr.substring(<span class="number">0</span>, <span class="number">4</span>), <span class="string">"亿"</span>);</span><br><span class="line"></span><br><span class="line">        String s2 = getChnM(sFormatStr.substring(<span class="number">4</span>, <span class="number">8</span>), <span class="string">"万"</span>);</span><br><span class="line"></span><br><span class="line">        String s3 = getChnM(sFormatStr.substring(<span class="number">8</span>, <span class="number">12</span>), <span class="string">""</span>);</span><br><span class="line"></span><br><span class="line">        String s4 = getDotM(sDot);</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (s1.length() &gt; <span class="number">0</span> &amp;&amp; s1.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            s1 = s1.substring(<span class="number">1</span>,</span><br><span class="line">                    s1.length());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s1.length() &gt; <span class="number">0</span> &amp;&amp;</span><br><span class="line">                s1.substring(s1.length() - <span class="number">1</span>, s1.length()).equals(<span class="string">"0"</span>)</span><br><span class="line">                &amp;&amp; s2.length() &gt; <span class="number">0</span> &amp;&amp; s2.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            s1 = s1.substring(<span class="number">0</span>, s1.length() - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s2.length() &gt; <span class="number">0</span> &amp;&amp;</span><br><span class="line">                s2.substring(s2.length() - <span class="number">1</span>, s2.length()).equals(<span class="string">"0"</span>)</span><br><span class="line">                &amp;&amp; s3.length() &gt; <span class="number">0</span> &amp;&amp; s3.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            s2 = s2.substring(<span class="number">0</span>, s2.length() - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s4.equals(<span class="string">"00"</span>)) &#123;</span><br><span class="line">            s4 = <span class="string">""</span>;</span><br><span class="line">            <span class="keyword">if</span> (s3.length() &gt; <span class="number">0</span> &amp;&amp;</span><br><span class="line">                    s3.substring(s3.length() - <span class="number">1</span>, s3.length()).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">                s3 = s3.substring(<span class="number">0</span>, s3.length() - <span class="number">1</span>);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s3.length() &gt; <span class="number">0</span> &amp;&amp;</span><br><span class="line">                s3.substring(s3.length() - <span class="number">1</span>, s3.length()).equals(<span class="string">"0"</span>)</span><br><span class="line">                &amp;&amp; s4.length() &gt; <span class="number">0</span> &amp;&amp; s4.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            s3 = s3.substring(<span class="number">0</span>, s3.length() - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s4.length() &gt; <span class="number">0</span> &amp;&amp;</span><br><span class="line">                s4.substring(s4.length() - <span class="number">1</span>, s4.length()).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            s4 = s4.substring(<span class="number">0</span>, s4.length() - <span class="number">1</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (s3.equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            s3 = <span class="string">""</span>;</span><br><span class="line">            s4 = <span class="string">"0"</span> + s4;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        ChnMoney = s0 + s1 + s2 + s3 + <span class="string">"元"</span> + s4;</span><br><span class="line">        <span class="keyword">if</span> (ChnMoney.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            ChnMoney = ChnMoney.substring(<span class="number">1</span>,</span><br><span class="line">                    ChnMoney.length());</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; ChnMoney.length(); i++) &#123;</span><br><span class="line">            <span class="keyword">if</span> (ChnMoney.substring(i, i + <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">                ChnMoney = ChnMoney.substring(<span class="number">0</span>, i) + <span class="string">"零"</span> +</span><br><span class="line">                        ChnMoney.substring(i + <span class="number">1</span>, ChnMoney.length());</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (sDot.substring(<span class="number">1</span>, <span class="number">2</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            ChnMoney += <span class="string">"整"</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> ChnMoney;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 得到money的角分信息</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> sIn String</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> String</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> String <span class="title">getDotM</span><span class="params">(String sIn)</span> </span>&#123;</span><br><span class="line">        String sMoney = <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">if</span> (!sIn.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney += getNum(sIn.substring(<span class="number">0</span>, <span class="number">1</span>)) + <span class="string">"角"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sMoney += <span class="string">"0"</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!sIn.substring(<span class="number">1</span>, <span class="number">2</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney += getNum(sIn.substring(<span class="number">1</span>, <span class="number">2</span>)) + <span class="string">"分"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sMoney += <span class="string">"0"</span>;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">return</span> sMoney;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 添加仟、佰、拾等单位信息</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> strUnit String</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> digit   String</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> String</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> String <span class="title">getChnM</span><span class="params">(String strUnit, String digit)</span> </span>&#123;</span><br><span class="line">        String sMoney = <span class="string">""</span>;</span><br><span class="line">        <span class="keyword">boolean</span> flag = <span class="keyword">false</span>;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (strUnit.equals(<span class="string">"0000"</span>)) &#123;</span><br><span class="line">            sMoney += <span class="string">"0"</span>;</span><br><span class="line">            <span class="keyword">return</span> sMoney;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!strUnit.substring(<span class="number">0</span>, <span class="number">1</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney += getNum(strUnit.substring(<span class="number">0</span>, <span class="number">1</span>)) + <span class="string">"仟"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sMoney += <span class="string">"0"</span>;</span><br><span class="line">            flag = <span class="keyword">true</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!strUnit.substring(<span class="number">1</span>, <span class="number">2</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney += getNum(strUnit.substring(<span class="number">1</span>, <span class="number">2</span>)) + <span class="string">"佰"</span>;</span><br><span class="line">            flag = <span class="keyword">false</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (!flag) &#123;</span><br><span class="line">                sMoney += <span class="string">"0"</span>;</span><br><span class="line">                flag = <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!strUnit.substring(<span class="number">2</span>, <span class="number">3</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney += getNum(strUnit.substring(<span class="number">2</span>, <span class="number">3</span>)) + <span class="string">"拾"</span>;</span><br><span class="line">            flag = <span class="keyword">false</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (!flag) &#123;</span><br><span class="line">                sMoney += <span class="string">"0"</span>;</span><br><span class="line">                flag = <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">if</span> (!strUnit.substring(<span class="number">3</span>, <span class="number">4</span>).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney += getNum(strUnit.substring(<span class="number">3</span>, <span class="number">4</span>));</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            <span class="keyword">if</span> (!flag) &#123;</span><br><span class="line">                sMoney += <span class="string">"0"</span>;</span><br><span class="line">                flag = <span class="keyword">true</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line"></span><br><span class="line">        <span class="keyword">if</span> (sMoney.substring(sMoney.length() - <span class="number">1</span>, sMoney.length()).equals(<span class="string">"0"</span>)) &#123;</span><br><span class="line">            sMoney = sMoney.substring(<span class="number">0</span>, sMoney.length() - <span class="number">1</span>) + digit.trim() +</span><br><span class="line">                    <span class="string">"0"</span>;</span><br><span class="line">        &#125; <span class="keyword">else</span> &#123;</span><br><span class="line">            sMoney += digit.trim();</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sMoney;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 格式化字符</span></span><br><span class="line"><span class="comment">     *</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> sIn String</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> String</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> String <span class="title">formatStr</span><span class="params">(String sIn)</span> </span>&#123;</span><br><span class="line">        <span class="keyword">int</span> n = sIn.length();</span><br><span class="line">        StringBuffer sOut = <span class="keyword">new</span> StringBuffer();</span><br><span class="line"></span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> k = <span class="number">1</span>; k &lt;= <span class="number">12</span> - n; k++) &#123;</span><br><span class="line">            sOut.append(<span class="string">"0"</span>);</span><br><span class="line">        &#125;</span><br><span class="line">        sOut.append(sIn);</span><br><span class="line">        <span class="keyword">return</span> sOut.toString();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">/**</span></span><br><span class="line"><span class="comment">     * 获取阿拉伯数字和中文数字大写的对应关系(比如输入0，获得零)</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@param</span> value String</span></span><br><span class="line"><span class="comment">     * <span class="doctag">@return</span> String</span></span><br><span class="line"><span class="comment">     */</span></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">static</span> String <span class="title">getNum</span><span class="params">(String value)</span> </span>&#123;</span><br><span class="line">        String sNum = <span class="string">""</span>;</span><br><span class="line">        Integer I = <span class="keyword">new</span> Integer(value);</span><br><span class="line">        <span class="keyword">int</span> iValue = I.intValue();</span><br><span class="line">        <span class="keyword">switch</span> (iValue) &#123;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">0</span>:</span><br><span class="line">                sNum = <span class="string">"零"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">1</span>:</span><br><span class="line">                sNum = <span class="string">"壹"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">2</span>:</span><br><span class="line">                sNum = <span class="string">"贰"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">3</span>:</span><br><span class="line">                sNum = <span class="string">"叁"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">4</span>:</span><br><span class="line">                sNum = <span class="string">"肆"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">5</span>:</span><br><span class="line">                sNum = <span class="string">"伍"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">6</span>:</span><br><span class="line">                sNum = <span class="string">"陆"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">7</span>:</span><br><span class="line">                sNum = <span class="string">"柒"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">8</span>:</span><br><span class="line">                sNum = <span class="string">"捌"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            <span class="keyword">case</span> <span class="number">9</span>:</span><br><span class="line">                sNum = <span class="string">"玖"</span>;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sNum;</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
-
-          
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java获取指定位数的随机字符串/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="無曦">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="無曦">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/11/Java获取指定位数的随机字符串/" itemprop="url">Java获取指定位数的随机字符串</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
-                2019-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/04/11/Java获取指定位数的随机字符串/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java获取指定位数的随机字符串/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2019/04/11/Java获取指定位数的随机字符串/" class="leancloud_visitors" data-flag-title="Java获取指定位数的随机字符串">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  67
+                  389
                 </span>
               
 
@@ -1433,11 +1429,11 @@
 
       
         
-          <h2 id="getRandomString"><a href="#getRandomString" class="headerlink" title="getRandomString"></a>getRandomString</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getRandomString</span><span class="params">(<span class="keyword">int</span> length)</span> </span>&#123;</span><br><span class="line">        <span class="comment">//随机字符串的随机字符库</span></span><br><span class="line">        String KeyString = <span class="string">"abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789"</span>;</span><br><span class="line">        StringBuffer sb = <span class="keyword">new</span> StringBuffer();</span><br><span class="line">        <span class="keyword">int</span> len = KeyString.length();</span><br><span class="line">        <span class="keyword">for</span> (<span class="keyword">int</span> i = <span class="number">0</span>; i &lt; length; i++) &#123;</span><br><span class="line">            sb.append(KeyString.charAt((<span class="keyword">int</span>) Math.round(Math.random() * (len - <span class="number">1</span>))));</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> sb.toString();</span><br><span class="line">    &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
+          <h1 id="字数与阅读时长统计"><a href="#字数与阅读时长统计" class="headerlink" title="字数与阅读时长统计"></a>字数与阅读时长统计</h1><h2 id="插件wordcount"><a href="#插件wordcount" class="headerlink" title="插件wordcount"></a>插件wordcount</h2><p>在主题配置文件(博客目录名称\themes\主题名称\config.yml)中加入wordcount插件，如果是Next等已经集成该插件的主题，加入后即可实现,若主题未集成则需其他操作。<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"># wordcount文字统计插件</span><br><span class="line"># Dependencies: https://github.com/willin/hexo-wordcount</span><br><span class="line">post_wordcount:</span><br><span class="line">	item_text: true</span><br><span class="line">	wordcount: true</span><br><span class="line">	min2read: true</span><br></pre></td></tr></table></figure></p>
+<p>官方提供了三种格式添加方式，分别为Swig、Ejs、Jade，下方为三种添加方式，也可查看官方文档<a href="https://github.com/willin/hexo-wordcount" target="_blank" rel="noopener">Wordcount文档</a>，另外可对统计进行DIY如添加文字说明对统计加粗等。</p>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java获取指定位数的随机字符串/#more" rel="contents">
+            <a class="btn" href="/2019/04/11/Hexo+Github博客小功能之字数与阅读时长统计/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -1488,7 +1484,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java格式化一个时间为yyyy-MM-dd/">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Linux常用命令/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="無曦">
@@ -1507,7 +1503,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" itemprop="url">Java格式化一个时间为yyyy-MM-dd</a></h1>
+                <a class="post-title-link" href="/2019/04/11/Linux常用命令/" itemprop="url">Linux常用命令</a></h1>
         
 
         <div class="post-meta">
@@ -1519,606 +1515,7 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
-                2019-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/" class="leancloud_visitors" data-flag-title="Java格式化一个时间为yyyy-MM-dd">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  62
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="formatOneDate"><a href="#formatOneDate" class="headerlink" title="formatOneDate"></a>formatOneDate</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 格式化一个时间为yyyy-MM-dd</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@param</span> date</span></span><br><span class="line"><span class="comment">    * <span class="doctag">@return</span></span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">formatOneDate</span><span class="params">(Date date)</span></span>&#123;</span><br><span class="line">       TimeZone timeZone = TimeZone.getTimeZone(<span class="string">"Asia/Shanghai"</span>);</span><br><span class="line"></span><br><span class="line">       String pattern = <span class="string">"yyyy-MM-dd"</span>;</span><br><span class="line"></span><br><span class="line">       SimpleDateFormat df = <span class="keyword">new</span> SimpleDateFormat(pattern);</span><br><span class="line"></span><br><span class="line">       df.setTimeZone(timeZone);</span><br><span class="line"></span><br><span class="line">       String formatDate = df.format(date);</span><br><span class="line"></span><br><span class="line">       <span class="keyword">return</span> formatDate;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java格式化一个时间为yyyy-MM-dd/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Linux运行jar包报错UnsupportedClassVersionError/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="無曦">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="無曦">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/11/Linux运行jar包报错UnsupportedClassVersionError/" itemprop="url">Linux运行jar包报错UnsupportedClassVersionError</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
-                2019-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/04/11/Linux运行jar包报错UnsupportedClassVersionError/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Linux运行jar包报错UnsupportedClassVersionError/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2019/04/11/Linux运行jar包报错UnsupportedClassVersionError/" class="leancloud_visitors" data-flag-title="Linux运行jar包报错UnsupportedClassVersionError">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  82
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="UnsupportedClassVersionError"><a href="#UnsupportedClassVersionError" class="headerlink" title="UnsupportedClassVersionError"></a>UnsupportedClassVersionError</h2><p>出现 java.lang.UnsupportedClassVersionError 错误的原因，是因为我们使用高版本的JDK编译的Java class文件试图在较低版本的JVM上运行，所报的错误。</p>
-<p>如图所示:</p>
-<p><img src="http://106.13.51.1:8100/imgs/2019/05/f3fc18a6c47b2ce4.jpg" alt></p>
-<p>解决方案:重装JDK，使JDK版本与jar包的JDK版本一致.</p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Linux运行jar包报错UnsupportedClassVersionError/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Java获取IP地址/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="無曦">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="無曦">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/11/Java获取IP地址/" itemprop="url">Java获取IP地址</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
-                2019-04-11
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category">
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/Java/" itemprop="url" rel="index">
-                    <span itemprop="name">Java</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2019/04/11/Java获取IP地址/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Java获取IP地址/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-             <span id="/2019/04/11/Java获取IP地址/" class="leancloud_visitors" data-flag-title="Java获取IP地址">
-               <span class="post-meta-divider">|</span>
-               <span class="post-meta-item-icon">
-                 <i class="fa fa-eye"></i>
-               </span>
-               
-                 <span class="post-meta-item-text">阅读次数&#58;</span>
-               
-                 <span class="leancloud-visitors-count"></span>
-             </span>
-          
-
-          
-
-          
-            <div class="post-wordcount">
-              
-                
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-file-word-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">字数统计&#58;</span>
-                
-                <span title="字数统计">
-                  176
-                </span>
-              
-
-              
-                <span class="post-meta-divider">|</span>
-              
-
-              
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-clock-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
-                
-                <span title="阅读时长">
-                  1
-                </span>
-              
-            </div>
-          
-
-          
-
-        </div>
-      </header>
-    
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          <h2 id="Java获取IP地址"><a href="#Java获取IP地址" class="headerlink" title="Java获取IP地址"></a>Java获取IP地址</h2><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment">    * 获取IP地址</span></span><br><span class="line"><span class="comment">    *</span></span><br><span class="line"><span class="comment">    * 使用Nginx等反向代理软件， 则不能通过request.getRemoteAddr()获取IP地址</span></span><br><span class="line"><span class="comment">    * 如果使用了多级反向代理的话，X-Forwarded-For的值并不止一个，而是一串IP地址，X-Forwarded-For中第一个非unknown的有效IP字符串，则为真实IP地址</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line">   <span class="function"><span class="keyword">public</span> <span class="keyword">static</span> String <span class="title">getIpAddr</span><span class="params">(HttpServletRequest request)</span> </span>&#123;</span><br><span class="line"></span><br><span class="line">       String ip = request.getHeader(<span class="string">"x-forwarded-for"</span>);</span><br><span class="line">       <span class="keyword">if</span> (ip == <span class="keyword">null</span> || ip.length() == <span class="number">0</span> || <span class="string">"unknown"</span>.equalsIgnoreCase(ip)) &#123;</span><br><span class="line">           ip = request.getHeader(<span class="string">"Proxy-Client-IP"</span>);</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">if</span> (ip == <span class="keyword">null</span> || ip.length() == <span class="number">0</span> || <span class="string">"unknown"</span>.equalsIgnoreCase(ip)) &#123;</span><br><span class="line">           ip = request.getHeader(<span class="string">"WL-Proxy-Client-IP"</span>);</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">if</span> (ip == <span class="keyword">null</span> || ip.length() == <span class="number">0</span> || <span class="string">"unknown"</span>.equalsIgnoreCase(ip)) &#123;</span><br><span class="line">           ip = request.getRemoteAddr();</span><br><span class="line">       &#125;</span><br><span class="line">       <span class="keyword">return</span> <span class="string">"0:0:0:0:0:0:0:1"</span>.equals(ip) ? <span class="string">"127.0.0.1"</span> : ip;</span><br><span class="line">   &#125;</span><br></pre></td></tr></table></figure>
-<h2 id="Java公共类方法"><a href="#Java公共类方法" class="headerlink" title="Java公共类方法"></a>Java公共类方法</h2><p>其他方法可查看<a href="http://106.13.51.1:8200/index.php/2019/05/14/java%E5%85%AC%E5%85%B1%E7%B1%BB%E6%96%B9%E6%B3%95/" target="_blank" rel="noopener">CommonUtils</a></p>
-          <!--noindex-->
-          <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Java获取IP地址/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-          <!--/noindex-->
-        
-      
-    </div>
-    
-    
-    
-
-    
-
-    
-
-    
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </div>
-  
-  
-  
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
-  
-  
-  
-  <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Git入门/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="無曦">
-      <meta itemprop="description" content>
-      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="無曦">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2019/04/11/Git入门/" itemprop="url">Git入门</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:39+08:00">
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:21:27+08:00">
                 2019-04-11
               </time>
             
@@ -2159,8 +1556,8 @@
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
-                <a href="/2019/04/11/Git入门/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Git入门/" itemprop="commentCount"></span>
+                <a href="/2019/04/11/Linux常用命令/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Linux常用命令/" itemprop="commentCount"></span>
                 </a>
               </span>
             
@@ -2168,7 +1565,7 @@
 
           
           
-             <span id="/2019/04/11/Git入门/" class="leancloud_visitors" data-flag-title="Git入门">
+             <span id="/2019/04/11/Linux常用命令/" class="leancloud_visitors" data-flag-title="Linux常用命令">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -2193,7 +1590,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  1.1k
+                  438
                 </span>
               
 
@@ -2209,7 +1606,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  4
+                  1
                 </span>
               
             </div>
@@ -2231,11 +1628,613 @@
 
       
         
-          <h2 id="工作区"><a href="#工作区" class="headerlink" title="工作区"></a>工作区</h2><p>工作区就是你克隆项目到本地后，项目所在的文件夹目录。</p>
-<h2 id="暂存区-stage-index"><a href="#暂存区-stage-index" class="headerlink" title="暂存区(stage/index)"></a>暂存区(stage/index)</h2><p>用于存储工作区中添加上来的变更（新增、修改、删除）的文件的地方。操作时，使用git add .会将本地所有新增、变更、删除过的文件的情况存入暂存区中，这些信息会存储到仓库目录下.git文件夹中的index文件中，该文件中以索引的形式存储着你的操作，Git 提交实际读取的是暂存区域的内容，而与工作区域的文件无关，当你修改了文件之后，如果没有添加git add到暂存区域，并不会保存到版本库</p>
+          <p>显示当前目录下所有文件以及目录(包含详细信息)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ll</span><br></pre></td></tr></table></figure>
+<p>进入目录</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br><span class="line">cd /</span><br><span class="line">cd 目录名</span><br><span class="line">cd .. 返回上一路径</span><br></pre></td></tr></table></figure>
           <!--noindex-->
           <div class="post-button text-center">
-            <a class="btn" href="/2019/04/11/Git入门/#more" rel="contents">
+            <a class="btn" href="/2019/04/11/Linux常用命令/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Linux安装Redis/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="無曦">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="無曦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/11/Linux安装Redis/" itemprop="url">Linux安装Redis</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T16:06:04+08:00">
+                2019-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/11/Linux安装Redis/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Linux安装Redis/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/04/11/Linux安装Redis/" class="leancloud_visitors" data-flag-title="Linux安装Redis">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  444
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  2
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>获取redis资源</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget http://download.redis.io/releases/redis-4.0.8.tar.gz</span><br></pre></td></tr></table></figure>
+<p>解压</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar xzvf redis-4.0.8.tar.gz</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/04/11/Linux安装Redis/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Linux安装MySQL/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="無曦">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="無曦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/11/Linux安装MySQL/" itemprop="url">Linux安装MySQL</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T15:04:32+08:00">
+                2019-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/工具/" itemprop="url" rel="index">
+                    <span itemprop="name">工具</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/11/Linux安装MySQL/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Linux安装MySQL/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/04/11/Linux安装MySQL/" class="leancloud_visitors" data-flag-title="Linux安装MySQL">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  276
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <p>下载MySQL(rpm版)</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://dev.mysql.com/get/mysql57-community-release-el7-9.noarch.rpm</span><br></pre></td></tr></table></figure>
+<p>安装MySQL</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rpm ivh mysql57-community-release-el7-9.noarch.rpm</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/04/11/Linux安装MySQL/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
+        
+      
+    </div>
+    
+    
+    
+
+    
+
+    
+
+    
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </div>
+  
+  
+  
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="http://fanlinxi.cn/2019/04/11/Js校验邮件地址/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="無曦">
+      <meta itemprop="description" content>
+      <meta itemprop="image" content="https://upload.jianshu.io/users/upload_avatars/15089845/378a6544-95a3-443c-90d5-f9e98bc40115?imageMogr2/auto-orient/strip|imageView2/1/w/240/h/240">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="無曦">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+                
+                <a class="post-title-link" href="/2019/04/11/Js校验邮件地址/" itemprop="url">Js校验邮件地址</a></h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-04-11T15:04:32+08:00">
+                2019-04-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+            <span class="post-category">
+            
+              <span class="post-meta-divider">|</span>
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">分类于</span>
+              
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/前端/" itemprop="url" rel="index">
+                    <span itemprop="name">前端</span>
+                  </a>
+                </span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2019/04/11/Js校验邮件地址/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count valine-comment-count" data-xid="/2019/04/11/Js校验邮件地址/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+             <span id="/2019/04/11/Js校验邮件地址/" class="leancloud_visitors" data-flag-title="Js校验邮件地址">
+               <span class="post-meta-divider">|</span>
+               <span class="post-meta-item-icon">
+                 <i class="fa fa-eye"></i>
+               </span>
+               
+                 <span class="post-meta-item-text">阅读次数&#58;</span>
+               
+                 <span class="leancloud-visitors-count"></span>
+             </span>
+          
+
+          
+
+          
+            <div class="post-wordcount">
+              
+                
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-file-word-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">字数统计&#58;</span>
+                
+                <span title="字数统计">
+                  43
+                </span>
+              
+
+              
+                <span class="post-meta-divider">|</span>
+              
+
+              
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-clock-o"></i>
+                </span>
+                
+                  <span class="post-meta-item-text">阅读时长 &asymp;</span>
+                
+                <span title="阅读时长">
+                  1
+                </span>
+              
+            </div>
+          
+
+          
+
+        </div>
+      </header>
+    
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          <h2 id="Js获取校验邮件地址"><a href="#Js获取校验邮件地址" class="headerlink" title="Js获取校验邮件地址"></a>Js获取校验邮件地址</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//邮箱校验</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">isMail</span>(<span class="params">mailvalue</span>)</span>&#123;</span><br><span class="line">    <span class="keyword">var</span> mailReg = <span class="regexp">/^(\w-*\.*)+@(\w-?)+(\.\w&#123;2,&#125;)+$/</span>;</span><br><span class="line">    <span class="keyword">if</span>(checkStringIsNotNull(mailvalue) &amp;&amp; mailReg.test(mailvalue))&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">true</span>;</span><br><span class="line">    &#125;<span class="keyword">else</span>&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="literal">false</span>;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2019/04/11/Js校验邮件地址/#more" rel="contents">
               阅读全文 &raquo;
             </a>
           </div>
@@ -2277,7 +2276,7 @@
 
   
   <nav class="pagination">
-    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><span class="space">&hellip;</span><a class="page-number" href="/page/8/">8</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
+    <a class="extend prev" rel="prev" href="/page/4/"><i class="fa fa-angle-left"></i></a><a class="page-number" href="/">1</a><span class="space">&hellip;</span><a class="page-number" href="/page/4/">4</a><span class="page-number current">5</span><a class="page-number" href="/page/6/">6</a><a class="extend next" rel="next" href="/page/6/"><i class="fa fa-angle-right"></i></a>
   </nav>
 
 
@@ -2325,7 +2324,7 @@
               
                 <a href="/archives/">
               
-                  <span class="site-state-item-count">76</span>
+                  <span class="site-state-item-count">54</span>
                   <span class="site-state-item-name">日志</span>
                 </a>
               </div>
@@ -2347,7 +2346,7 @@
               
               <div class="site-state-item site-state-tags">
                 <a href="/tags/index.html">
-                  <span class="site-state-item-count">49</span>
+                  <span class="site-state-item-count">41</span>
                   <span class="site-state-item-name">标签</span>
                 </a>
               </div>
@@ -2379,15 +2378,9 @@
                   </span>
                 
                   <span class="links-of-author-item">
-                    <a href="https://www.jianshu.com/u/36ce3ec09ec6" target="_blank" title="简书">
+                    <a href="https://www.douban.com/people/183706031" target="_blank" title="豆瓣">
                       
-                        <i class="fa fa-fw fa-gg"></i>简书</a>
-                  </span>
-                
-                  <span class="links-of-author-item">
-                    <a href="http://106.13.51.1:8200/" target="_blank" title="WordPress版博客">
-                      
-                        <i class="fa fa-fw fa-gg"></i>WordPress版博客</a>
+                        <i class="fa fa-fw fa-gg"></i>豆瓣</a>
                   </span>
                 
             </div>
@@ -2451,7 +2444,7 @@
     
       <span class="post-meta-item-text">Site words total count&#58;</span>
     
-    <span title="Site words total count">23.3k</span>
+    <span title="Site words total count">22.1k</span>
   
 </div>
 -->
@@ -2464,7 +2457,7 @@
 
 <div class="theme-info">
   <div class="powered-by"></div>
-  <span class="post-count">博客全站共23.3k字</span>
+  <span class="post-count">博客全站共22.1k字</span>
 </div>
 
         
